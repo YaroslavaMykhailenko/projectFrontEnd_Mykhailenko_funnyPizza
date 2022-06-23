@@ -52,7 +52,7 @@ export default function Ordersscreen() {
                                 </div>
                                 </div>
                                 <div className='text-left w-100 m-1'>
-                                <h2 style={{ fontSize: '25px', fontFamily: 'Bebas Neue' }}>Інформація про замовлення</h2>
+                                <h2 style={{ fontSize: '25px', fontFamily: 'Bebas Neue' }}>Інформація</h2>
                                 <hr/>
                                 <div style={{fontSize: '18px', fontFamily: 'Bebas Neue' }}>
                                 <p >Ціна замовлення : {order.orderAmount} ₴</p>

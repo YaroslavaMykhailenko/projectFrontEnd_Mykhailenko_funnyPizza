@@ -49,7 +49,7 @@ export default function Registerscreen() {
                         <input required type='text' placeholder="Пошта.." className='form-control' value={email} onChange={(e) => { setemail(e.target.value) }} />
                         <input required type='text' placeholder="Пароль.." className='form-control' value={password} onChange={(e) => { setpassword(e.target.value) }} />
                         <input required type='text' placeholder="Підтвердити пароль.." className='form-control' value={cpassword} onChange={(e) => { setcpassword(e.target.value) }} />
-                        <button className='btn mt-3' style={{ fontSize: '19px', fontFamily: 'Bebas Neue' }} onClick={register}>Заереструватись</button>
+                        <button className='btn mt-3' style={{ fontSize: '19px', fontFamily: 'Bebas Neue' }} onClick={register}>Заєреструватись</button>
                         <br></br>
                         <h2 style={{display : 'inline', fontSize:'18px'}}>Вже маєте аккаунт?</h2>
                         <a className='links' href="/login" style={{display : 'inline', fontSize:'19px', color:"crimson", margin:'10px'}}>Увійти🙂</a>

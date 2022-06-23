@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&family=Nuosu+SIL&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Bebas Neue', cursive !important;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Lilita One', cursive;
+  font-family: 'Nuosu SIL', serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-link{
+  color:black !important;
+  font-size: 25px !important;
+  
+}
+.navbar-brand{
+  font-size: 30px !important;
+  color:black !important;
+  margin-left: 30px !important;
+
+
+}
+
+h1{
+  font-size: 25px !important;
+}
+.flex-container{
+  display: flex !important;
+}
+.btn{
+  background-color: forestgreen !important;
+  color: white !important;
+  
+}
+.btn-pay{
+  background-color: forestgreen;
+  color: white !important;
+  border-color: green;
+
+}
+
+select{
+  box-shadow: none !important;
+  border-color: black !important;
+}
+
+.fa-plus{
+  color: green;
+  margin: 5px;
+  font-size: 20px;
+
+}
+.fa-minus{
+color: crimson;
+margin: 5px;
+font-size: 20px;
+}
+.fa-trash, .quantity, .fa-edit{
+  font-size: 20px;
+}
+
+input{
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
+.text-left{
+  text-align: left;
+  font-family: 'Bebas Neue', cursive;
+}
+
+thead{
+  background-color:lightslategray;
+  color: black;
+}
+
+.links{
+  text-decoration: none;
+}
+.amount{
+  margin-left: 20px;
+  width: 190px;
+  height: 45px;
+  display:inline;
+  
+}
+.adminpanel{
+  padding: 10px;
+  background-color: rgb(192, 146, 32);
+ 
+}
+.adminpanel li{
+  list-style-type: none !important;
+  display: inline !important;
+  color: black !important;
+  font-size: 20px;
+
+}
+.adminpanel li a{
+  color: black !important;
+  padding: 20px;
+  text-decoration: none !important;
+}
+
+td, th, tr{
+  text-align: left; 
+
+
+}
+.button{
+  display:inline;
+  border-radius: 4px;
+  height: 38px;
+  font-family: 'Bebas Neue', cursive;
+  border-color: lightsalmon;
+}
+
+.table td {
+  text-align: center;   
+}
+
+.table th {
+  text-align: center;   
+}

@@ -1,21 +1,21 @@
 import React from 'react'
-import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
+import logo from './logo.svg'
+import './App.css'
+import { BrowserRouter, Routes, Route, Navigate} from "react-router-dom"
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
-import Navbar from './components/Navbar';
-import Homepage from './screen/Homepage';
-import Cartscreen from './screen/Cartscreen';
-import Registerscreen from './screen/Registerscreen';
-import Loginscreen from './screen/Loginscreen';
+import Navbar from './components/Navbar'
+import Homepage from './screen/Homepage'
+import Cartscreen from './screen/Cartscreen'
+import Registerscreen from './screen/Registerscreen'
+import Loginscreen from './screen/Loginscreen'
 import Ordersscreen from './screen/Ordersscreen'
 import Addnewpizza from "./screen/Addnewpizza"
 import Orderslist from "./screen/Orderslist"
 import Pizzaslist from "./screen/Pizzaslist"
 import Userslist from "./screen/Userslist"
-import Editpizza from './screen/Editpizza';
+import Editpizza from './screen/Editpizza'
 
 function App() {
   return (
@@ -44,7 +44,7 @@ function App() {
     </div>
 
 
-  );
+  )
 
 }
 
